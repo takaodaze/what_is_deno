@@ -80,7 +80,7 @@ async 関数の中でしか await は使えなかったが
 
 ---
 
-# パッケージマネージャ is died
+# パッケージマネージャ is dead... 
 
 
 ```ts
@@ -94,6 +94,16 @@ export {
 
 # deno test
 Jestをインストールしたりしなくていい！
+```ts
+import { assertEquals } from "https://deno.land/std@0.143.0/...";
+
+// Compact form: name and function
+Deno.test("hello world #1", () => {
+  const x = 1 + 2;
+  assertEquals(x, 3);
+});
+
+```
 
 ---
 
