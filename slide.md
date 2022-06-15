@@ -5,7 +5,7 @@ class: invert
 ---
 
 ![bg left:20% 80%](https://kt3k.github.io/talk_deno_nikkei/assets/logo.svg)
-# **Deno に混沌としたJS界が救えるか！？**
+### **Denoは混沌としたJS界を救う**
 
 weblio study 開発チーム
 鷹勇 @Takao
